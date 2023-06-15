@@ -1,14 +1,16 @@
 #!/bin/bash
 # truenas-ACME-shell-DNS-Authenticator
-# Copyright (C) 2023, Switzer Business Solutions, LLC
-# All Rights reserved
+# https://github.com/sbsroc/truenas-ACME-shell-DNS-Authenticator
+#
+# Copyright (C) 2023, Switzer Business Solutions, LLC, all rights reserved
+# https://www.sbsroc.com
 #
 # See the accompanying LICENSE file for license information
 #
 # This script can be used in a TrueNAS Scale system as an ACME DNS-Authenticator
 # to allow authentication with a registrar that's not yet suppported. Currently,
-# only DreamHost is supported as this was our immediate need. Other providers will
-# be added as the need arises and time allows.
+# only DreamHost is supported as this was our immediate need.
+# Other providers will be added as the need arises and time allows.
 
 APIKEY={KEY_HERE}
 LOGDIR=/tmp
